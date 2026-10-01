@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2.0,
+  "id": "laka_fortigate_overview",
+  "type": "widget",
+  "name": "LAKA · FortiGate Overview",
+  "namespace": "FortiGateOverview",
+	"version": "1.10.0",
+  "author": "LAKA Soluciones Tecnológicas",
+  "description": "Panel profesional para FortiGate con detección automática de las plantillas oficiales by HTTP y by SNMP.",
+  "actions": {
+    "widget.laka_fortigate_overview.view": {
+      "class": "WidgetView"
+    }
+  },
+  "widget": {
+    "name": "FortiGate Overview",
+    "size": {
+      "width": 18,
+      "height": 10
+    },
+    "form_class": "WidgetForm",
+    "js_class": "WidgetLakaFortiGateOverview",
+    "use_time_selector": false,
+    "refresh_rate": 60
+  },
+  "assets": {
+    "css": ["widget.css"],
+    "js": ["class.widget.js"]
+  }
+}
