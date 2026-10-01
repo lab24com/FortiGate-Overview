@@ -4,7 +4,7 @@
   "type": "widget",
   "name": "LAKA · FortiGate Overview",
   "namespace": "FortiGateOverview",
-	"version": "1.10.0",
+	"version": "1.0",
   "author": "LAKA Soluciones Tecnológicas",
   "description": "Panel profesional para FortiGate con detección automática de las plantillas oficiales by HTTP y by SNMP.",
   "actions": {
