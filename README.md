@@ -1,19 +1,28 @@
-# LAKA · FortiGate Overview
-
+# LAKA · FortiGate Overview V2.0
+**Autor:** © LAKA Soluciones Tecnológicas
+ 
 Widget para Zabbix 7.0/7.4 orientado a equipos FortiGate. Detecta automáticamente las plantillas oficiales **FortiGate by HTTP** y **FortiGate by SNMP**.
 
-## Funciones incluidas
+## Qué muestra
 
-- Lista lateral de múltiples firewalls y estado por problemas activos.
-- CPU, RAM, disco, sesiones, IPsec y usuarios SSL-VPN.
-- Interfaces con estado, velocidad, entrada, salida, utilización y errores.
-- Identificación automática de interfaces WAN y personalización independiente por cada firewall.
-- Health-checks SD-WAN con estado, latencia, jitter y pérdida de paquetes.
-- VPN, IPS, clúster HA, sensores físicos y VDOM.
-- Umbrales configurables y secciones que se pueden activar u ocultar.
-- Tema claro, oscuro y alto contraste heredado del frontend.
-- Gráficas con ejes temporales, relleno visual, estadísticas y escalas separadas para ms, porcentaje y tráfico.
-- Mapa lógico de puertos con filtros, colores de estado y acceso al histórico de cualquier interfaz.
+| Sección | Contenido | Fuente |
+|---|---|---|
+| **Lista de FortiGates** | Tabla ordenable y filtrable de todos los firewalls: estado, modelo/FortiOS, uptime, CPU, RAM, disco, sesiones, ICMP, WAN arriba/total, SLA SD-WAN, IPsec, HA, licencias y problemas. Indicadores globales (críticos, WAN caídas, HA sin sincronizar, licencias, firmware). | HTTP + SNMP |
+| **Resumen** | KPIs, verificación de salud (12 chequeos con acceso directo a cada pestaña), problemas actuales, mapa de puertos y consumo WAN. | HTTP + SNMP |
+| **Problemas** | Problemas activos con severidad, opdata, duración, reconocimiento, supresión y enlace al evento. Los *Link down* de interfaces que ya están UP se separan como recuperados. | Zabbix |
+| **Interfaces** | Tipo real (física, VLAN, agregada, túnel, loopback, switch), estado, velocidad, tráfico, utilización, paquetes/s, errores/s y descartes/s. | HTTP + SNMP |
+| **SD-WAN** | Miembros (enlace, ancho de banda, sesiones, último cambio), matriz SLA health-check × miembro y gráficas por enlace. | HTTP (miembros) + SNMP/HTTP (SLA) |
+| **VPN** | Túneles IPsec arriba/caídos por nombre, usuarios y estado del servicio SSL-VPN. | SNMP |
+| **Seguridad** | Tasa IPS por severidad, bloqueos, anomalías, firmas, versión de la base IPS y eventos AV/IPS del clúster. | SNMP |
+| **HA** | Modo, grupo, prioridad, override, balanceo, auto-sync, rol primario/secundario, sincronización y consistencia del checksum entre miembros. | SNMP |
+| **Políticas** | Hits/s, tráfico, sesiones, % de descarga a hardware (NP), último uso; filtros para políticas sin uso, deshabilitadas, deny e IPsec. | HTTP |
+| **Licencias** | Servicios FortiGuard/FortiCare: estado, vencimiento en días, versión de firmas y resultado de la última actualización. | HTTP |
+| **FortiAP** | Estado de conexión, modelo/firmware, IP, clientes, CPU, RAM, banda, potencia, tráfico y uptime de cada AP gestionado. | SNMP |
+| **Sensores** | Temperaturas, ventiladores y fuentes con alarma nativa y umbrales de temperatura. | SNMP |
+| **VDOM** | Modo, rol HA, CPU, RAM, sesiones y tasa de sesiones por VDOM. | SNMP |
+| **Sistema** | Inventario, firmware disponible, ICMP/recolectores/puerto API, CPU por núcleo (sistema/usuario), NP6lite (SoC3) y calidad de datos: errores de la API, ítems no soportados y métricas sin datos recientes. | HTTP + SNMP |
+
+Las pestañas sólo aparecen cuando el host tiene los ítems correspondientes y la sección está habilitada.
 
 ## Instalación
 
