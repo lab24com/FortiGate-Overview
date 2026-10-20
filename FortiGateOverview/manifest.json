@@ -1,0 +1,38 @@
+{
+	"manifest_version": 2.0,
+	"id": "laka_fortigate_overview",
+	"type": "widget",
+	"name": "FortiGate Overview",
+	"namespace": "FortiGateOverview",
+	"version": "2.0",
+	"author": "LAKA",
+	"description": "Centro de operaciones FortiGate para Zabbix 7.0–7.4: Lista, recursos, interfaces, SD-WAN, VPN, HA, políticas, licencias FortiGuard, FortiAP, sensores y calidad de datos. Compatible con las plantillas oficiales by HTTP y by SNMP. Interfaz en español, português (Brasil) e inglés.",
+	"actions": {
+		"widget.laka_fortigate_overview.view": {
+			"class": "WidgetView"
+		},
+		"laka.fortigate.host": {
+			"class": "HostData",
+			"layout": "layout.json"
+		},
+		"laka.fortigate.history": {
+			"class": "HistoryData",
+			"layout": "layout.json"
+		}
+	},
+	"widget": {
+		"name": "FortiGate Overview",
+		"size": {
+			"width": 36,
+			"height": 12
+		},
+		"form_class": "WidgetForm",
+		"js_class": "WidgetLakaFortiGateOverview",
+		"use_time_selector": false,
+		"refresh_rate": 60
+	},
+	"assets": {
+		"css": ["widget.css"],
+		"js": ["i18n.js", "class.widget.js"]
+	}
+}
