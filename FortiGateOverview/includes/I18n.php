@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        includes/I18n.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Idiomas del widget y traducción de las etiquetas del formulario de configuración
 **                 (Español, Português Brasil e English).
