@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        includes/WidgetForm.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Campos del formulario de configuración del widget. Las etiquetas se muestran en el
 **                 idioma elegido para el widget (o en el idioma del usuario si aún no se eligió).
