@@ -4,7 +4,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        assets/js/class.widget.js
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Lógica del widget en el navegador: interpreta los datos de las plantillas oficiales
 **                 "FortiGate by HTTP" y "FortiGate by SNMP", dibuja la vista de flota, las pestañas de cada
