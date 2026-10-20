@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        includes/History.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Lectura del histórico numérico. La última hora se lee del histórico; los periodos
 **                 anteriores usan tendencias horarias (mín/prom/máx) con respaldo al histórico cuando un ítem no
