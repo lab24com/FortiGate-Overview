@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        actions/WidgetView.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Controlador de datos del dashboard. Hasta FULL_DETAIL_HOSTS firewalls se envían con
 **                 todos sus ítems; selecciones mayores se envían en modo ligero (resumen de flota) y el navegador
