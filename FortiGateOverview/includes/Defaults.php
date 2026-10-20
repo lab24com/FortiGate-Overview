@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        includes/Defaults.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Fuente única de los ajustes del widget y de sus valores predeterminados.
 **                 La usan el formulario de configuración y el controlador de datos.
