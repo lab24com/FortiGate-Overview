@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        actions/HistoryData.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Acción JSON de sólo lectura: devuelve el histórico numérico de los ítems solicitados.
 **                 El acceso a cada ítem se valida con item.get usando los permisos del usuario actual.
