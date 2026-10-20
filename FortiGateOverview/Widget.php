@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        Widget.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Clase principal del widget. Las traducciones de la interfaz se gestionan en
 **                 assets/js/i18n.js según el idioma elegido en la configuración.
