@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        views/widget.edit.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Vista del formulario de configuración: campos principales y grupos plegables de
 **                 secciones y umbrales, con títulos en el idioma elegido para el widget.
