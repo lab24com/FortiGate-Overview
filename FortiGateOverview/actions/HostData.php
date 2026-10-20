@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        actions/HostData.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Acción JSON de sólo lectura: devuelve todos los ítems de un firewall para la vista de
 **                 detalle. El acceso al host se valida con host.get usando los permisos del usuario actual.
