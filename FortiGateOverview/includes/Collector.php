@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        includes/Collector.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Lectura de los últimos valores de las plantillas "FortiGate by HTTP" y "FortiGate by SNMP".
 **                 Los ítems se envían como tuplas compactas:
