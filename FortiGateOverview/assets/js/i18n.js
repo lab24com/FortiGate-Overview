@@ -4,7 +4,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        assets/js/i18n.js
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Diccionarios de traducción del widget. La clave es el texto original en español;
 **                 {0}, {1}… son marcadores que el widget reemplaza por valores. El español no necesita
