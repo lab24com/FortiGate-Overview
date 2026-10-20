@@ -5,7 +5,7 @@
 **
 ** Autor:          LAKA Soluciones Tecnológicas
 ** Archivo:        views/widget.view.php
-** Versión:        2.1.1
+** Versión:        2.0
 ** Compatibilidad: Zabbix 7.0 – 7.4
 ** Descripción:    Vista del widget en el dashboard. Entrega los datos codificados en base64 al
 **                 JavaScript (class.widget.js), que dibuja toda la interfaz.
